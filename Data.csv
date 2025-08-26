@@ -1,0 +1,73 @@
+Port Number,Service Name,Description,Protocol
+Port 7,ECHO,Used to test round-trip time (echo reply),TCP / UDP
+Port 9,DISCARD,Used to test network performance,TCP / UDP
+Port 13,Daytime,Returns the current date and time (used for testing/debugging),TCP / UDP
+Port 17,QOTD,Quote of the Day – returns a quote or message (mainly for testing/debugging),TCP / UDP
+Ports 20-21,FTP,File Transfer Protocol,TCP
+Port 22,SSH,"Secure Shell; used for secure logins, file transfers, and port forwarding",TCP
+Port 23,Telnet,Telnet protocol; used for unencrypted text communications,TCP / UDP
+Port 25,SMTP,"Simple Mail Transfer Protocol, used for email routing between mail servers",TCP
+Port 37,Time,"Used to provide a machine-readable date and time, usually for synchronizing clocks",TCP / UDP
+Port 42,nameserver,Host Name Server (used for Host Name to IP Address mapping),TCP / UDP
+Port 49,TACACS,Terminal Access Controller Access-Control System,TCP / UDP
+Port 53,DNS,Domain Name System; translates 'host names' into IP addresses,TCP / UDP
+Port 69,TFTP,Trivial File Transfer Protocol,UDP
+Port 80,HTTP,Hypertext Transfer Protocol; used for unencrypted web traffic,TCP
+Port 88,Kerberos,"Used for secure network authentication, especially in Active Directory environments",TCP / UDP
+Port 102,ISO-TSAP,ISO Transport Service Access Point (TSAP),TCP / UDP
+Port 110,POP3,Post Office Protocol; used to connect to a mail server to retrieve emails,TCP / UDP
+Port 111,rpcbind,"Portmapper service used to map RPC program numbers to network port numbers, typically used in NFS and other RPC services.",TCP / UDP
+Port 123,NTP,Network Time Protocol,UDP
+Port 135,DCE/RPC Endpoint Mapper,Distributed Computing Environment / Remote Procedure Call (DCE/RPC) Endpoint Mapper,TCP / UDP
+Port 137,NetBIOS-NS,NetBIOS Name Service – used for name resolution in Windows networks,UDP
+Port 139,NetBIOS-ssn,NetBIOS Session Service,TCP / UDP
+Port 143,IMAP,Internet Message Access Protocol – used to retrieve email from mail servers,TCP
+Port 161,SNMP-agents,Simple Network Management Protocol; agents communicate on this port,TCP / UDP
+Port 162,SNMP-traps,Simple Network Management Protocol; used by management systems to receive alerts and notifications from agents,TCP / UDP
+Ports 381 - 383,HP Performance Data Collector,Collects performance data from managed nodes,TCP / UDP
+Port 389,LDAP,Lightweight Directory Access Protocol,TCP / UDP
+Port 427,SLP,"Service Location Protocol, used for service discovery in local networks",TCP / UDP
+Port 443,HTTPS,"Hypertext Transfer Protocol Secure; used for encrypted
+web traffic",TCP / UDP
+Port 445,Microsoft DS SMB,"Microsoft Directory Services; TCP used for AD and Windows shares, UDP for SMB file-sharing",TCP / UDP
+Port 464,Kerberos,"Used for changing or setting passwords in Kerberos-based authentication systems, such as Active Directory",TCP / UDP
+Port 465,SMTP,Simple Mail Transfer Protocol; used to securely transmit mail messages from email clients to email servers.,TCP
+Port 500,ISAKMP,Internet Security Association and Key Management Protocol – used for establishing VPNs (IPsec),UDP
+Port 514,syslog,Syslog Protocol; for collecting and organizing all log files sent from various devices on a network,UDP
+Port 515,printer,Used by Line Printer Daemon (LPD) for printing services over a network. Common in Unix systems.,TCP
+Port 587,SMTP,Simple Mail Transfer Protocol; used for email message submission,UDP
+Port 593,RPC Mapper Service,Enables secure remote connections and function execution over HTTP.,TCP / UDP
+Port 623,ADF Remote,Alert Standard Format (ASF) – remote management/control (IPMI),UDP
+Port 631,IPP,Internet Printing Protocol - Used for network printing and printer management,TCP / UDP
+Port 636,LDAP  / LDAPS,Lightweight Directory Access Protocol (over SSL); used to store data in the LDAP directory and authenticate users to access the directory,TCP / UDP
+Port 691,Microsoft Exchange Routing Engine (RESvc),Used by Microsoft Exchange servers to update routing tables for efficient message delivery.,TCP
+Port 902,VMware vSphere,Used to manage your ESXi hosts and the virtual machines (VMs) that run on them,TCP / UDP
+Port 989,FTPS,FTPS (FTP Secure) over TLS/SSL (data port),TCP
+Port 990,FTPS,FTP Secure – FTP over SSL for secure file transfers,TCP
+Port 993,IMAP,Internet Message Access Protocol; used to deliver and manage messages on email servers on behalf of email clients,TCP
+Port 995,POP3,Post Office Protocol version 3 (over SSL); lets email users download messages from an email server using an email client,TCP / UDP
+Port 1194,OpenVPN,Used by OpenVPN for establishing encrypted tunnels between VPN clients and servers,TCP / UDP
+Port 1433,Microsoft SQL Server,Allows encrypted access to and management of databases and servers,TCP
+Port 1434,Microsoft SQL Monitor,Used by Microsoft SQL Server for monitoring and communication with clients.,UDP
+Port 1521,Oracle Database,Oracle client apps communicate with Oracle database servers,TCP
+Port 1701,L2TP,"Layer 2 Tunneling Protocol, used for VPN connections",UDP
+Port 2000,Cisco SCCP,Skinny Client Control Protocol – used by Cisco VoIP phones,TCP
+Port 3306,MySQL,Used to connect with MySQL clients and utilities,TCP
+Port 3389,Remote Desktop Protocol,Allows client device to remotely access and control a Windows desktop computer over this port,TCP
+Port 4000,Terabase / RemoteAnything,"Often used by custom applications, including development servers (e.g., Node.js), RemoteAnything (remote access), and other services. Not officially assigned by IANA.",TCP / UDP
+Port 4444,Metasploit (commonly used),"This port is often used for reverse shells in penetration testing tools, particularly Metasploit's Meterpreter payload.",TCP / UDP
+Port 4500,IPsec NAT-T,Psec NAT Traversal used to allow IPsec traffic through NAT routers.,UDP
+Port 5060,SIP,Session Initiation Protocol; used to signal and control communication sessions,TCP / UDP
+Port 5061,SIP-TLS,Session Initiation Protocol (SIP) over TLS for secure VoIP signaling,TCP
+Port 5353,mDNS,Multicast DNS (mDNS) is used for resolving hostnames to IP addresses within small networks without a local DNS server.,UDP
+Port 5355,LLMNR,Link-Local Multicast Name Resolution – name resolution in local networks,UDP
+Port 5432,PostgreSQL,Used for communication between PostgreSQL clients and the database server,TCP
+Port 5500,VNC Server,Default port used by VNC Server for remote desktop access,TCP
+Port 5900,VNC (Virtual Network Computing),"Used for remote desktop sharing, allows a client to remotely view and control another computer's desktop",TCP
+Ports 6665-6669,IRC (Internet Relay Chat),"Used for Internet Relay Chat (IRC) communications, enabling text-based communication over networks",TCP / UDP
+Ports 6881-6999,BitTorrent,"Used for peer-to-peer file sharing, facilitating data distribution across networks",TCP / UDP
+Ports 8086 & 8087,TTP Alternate/IoT Services,"These ports are often used as alternative ports for web servers, IoT (Internet of Things) services, or internal applications.",TCP
+Port 9100,Printer/JetDirect,Commonly used by network printers and print servers for raw printing protocols,TCP
+Port 10000,Webmin,Used for remote server communication and configuration,TCP
+Port 12345,NetBus,Used for remote administration; can be exploited for unauthorized access,TCP / UDP
+Port 31337,Back Orifice / ncat,Used for remote control of servers by hacking tools and remote administration utilities,TCP / UDP
